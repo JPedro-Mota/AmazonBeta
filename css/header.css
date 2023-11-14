@@ -10,7 +10,7 @@ a {
 }
 
 .header {
-  animation: aparecer 0.5s ease 0s normal none;
+  animation: aparecer 0.4s ease 0s normal none;
     background: #131921;
     /* padding-inline: 16px; */
   }
@@ -104,9 +104,17 @@ a {
     0% {
     opacity: 1;
     }
+
+    25% {
+      opacity: 0.2;
+    }
   
     50% {
-    opacity: 0.2;
+    opacity: 0.5;
+    }
+
+    75%{
+      opacity: 0.75;
     }
   
     100% {

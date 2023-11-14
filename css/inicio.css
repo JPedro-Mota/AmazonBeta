@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body{
+  background-color: #131921;
+}
+
+
 a {
   font-family: sans-serif;
   text-decoration: none;
@@ -95,3 +100,30 @@ a {
   width: 100%;
 }
 
+.wrap{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.lad01{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.lad02{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
