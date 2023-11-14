@@ -74,6 +74,7 @@
             background-size: cover;
         }
         .login{
+            animation: animacaolegal 2s ease 0s infinite normal none;
             background-color: rgba(0, 0, 0, 0.9);
             position: absolute;
             top: 50%;
@@ -110,4 +111,8 @@
             cursor: pointer;
         }
 
+        
+        @keyframes animacaolegal {
+
+        }
         

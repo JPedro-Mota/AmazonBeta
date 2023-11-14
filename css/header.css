@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
 .header {
+  animation: aparecer 0.5s ease 0s normal none;
     background: #131921;
     /* padding-inline: 16px; */
   }
@@ -43,8 +49,8 @@
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 15%;
-    /* margin-right: 5px; */
+    /* margin-left: 15%; */
+    margin-right: 35px;
     gap: 30px;
     list-style: none;
     justify-content: space-between;
@@ -65,7 +71,7 @@
     background: #ffffff;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: -30px;
+    margin-left: 0px;
     border-radius: 20px;
     width: 50%;
     height: 40px;
@@ -82,9 +88,29 @@
 
   }
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 1080px) {
+    .nav-list{
+      margin-left: 3%;
+      /* margin-right: 4%; */
+    }
+
     .rectangle-1 {
-      margin-left: 30px;
+      margin-left: 10%;
+      margin-right: 4%;
     }
   }
 
+  @keyframes aparecer {
+    0% {
+    opacity: 1;
+    }
+  
+    50% {
+    opacity: 0.2;
+    }
+  
+    100% {
+    opacity: 1;
+    }
+  }
+  
