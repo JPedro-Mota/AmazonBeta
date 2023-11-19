@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #131921;
+}
+
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+
+.hero {
+  height: calc(100vh - 70px);
+  background: center / cover no-repeat url("./bg.jpg");
+}
+
+@media (max-width: 750px) {
+  
+
+  .nav-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #131921;
+    clip-path: circle(100px at 90% -15%);
+    transition: 1s ease-out;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+    pointer-events: none;
+  }
+
+  .nav-list a {
+    font-size: 24px;
+    opacity: 0;
+  }
+
+  .nav-list li:nth-child(1) a {
+    transition: 0.5s 0.2s;
+  }
+
+  .nav-list li:nth-child(2) a {
+    transition: 0.5s 0.4s;
+  }
+
+  .nav-list li:nth-child(3) a {
+    transition: 0.5s 0.6s;
+  }
+
+  /* Estilos ativos */
+
+  .nav.active .nav-list {
+    clip-path: circle(1500px at 90% -15%);
+    pointer-events: all;
+  }
+
+  .nav.active .nav-list a {
+    opacity: 1;
+  }
+
+  
+}
+.amazon-com-inc-uma-empresa-multinacional-de-tecnologia-norte-americana-com-sede-em-seattle-washington-a-companhia-se-concentra-no-e-commerce-computa-o-em-nuvem-streaming-e-intelig-ncia-artificial-considerada-uma-das-cinco-grandes-empresas-de-tecnologia-juntamente-com-google-apple-microsoft-e-facebook {
+  color: #fbfbfb;
+  text-align: left;
+  font: 500 32px "Roboto", sans-serif;
+  position: absolute;
+  left: 35px;
+  top: 356px;
+  width: 597px;
+  height: 616px;
+}
+.amazon-tudo-para-voc-de-a-a-z {
+  color: #fbfbfb;
+  text-align: left;
+  font: 500 32px "Roboto", sans-serif;
+  position: absolute;
+  left: 35px;
+  top: 714px;
+  width: 797px;
+  height: 441px;
+}
+.amazon-com-br-rgb-rev-half-cb-1198675309-1 {
+  width: 413px;
+  height: 81px;
+  position: absolute;
+  left: 35px;
+  top: 230px;
+}
+
+.image-banner{
+  width: 100%;
+}
+
+.wrap{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.lad01{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.lad02{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.header {
+  animation: aparecer 0.4s ease 0s normal none;
+    background: #131921;
+    /* padding-inline: 16px; */
+  }
+
+  .nav{
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 75px;
+  }
+
+  .secao1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0%;
+
+  }
+
+  .logo{
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+
+  .logo-img {
+    margin-top: auto;
+    margin-bottom: auto;
+    
+  }
+
+  .nav-list{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin-left: 15%; */
+    margin-right: 35px;
+    gap: 30px;
+    list-style: none;
+    justify-content: space-between;
+  }
+
+  .nav-list a {
+    font-size: 16px;
+    color: #fff;
+    padding-block: 16px;
+  }
+
+  .nav a{
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .rectangle-1{
+    background: #ffffff;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    border-radius: 20px;
+    width: 50%;
+    height: 40px;
+    /* left: 510px; */
+    /* top: 10px; */
+    /* max-width: 40%; */
+  }
+
+  .cadastro{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+
+  }
+
+  @media screen and (max-width: 1080px) {
+    .nav-list{
+      margin-left: 3%;
+      /* margin-right: 4%; */
+    }
+
+    .rectangle-1 {
+      margin-left: 10%;
+      margin-right: 4%;
+    }
+  }
+
+  @keyframes aparecer {
+    0% {
+    opacity: 1;
+    }
+
+    25% {
+      opacity: 0.2;
+    }
+  
+    50% {
+    opacity: 0.5;
+    }
+
+    75%{
+      opacity: 0.75;
+    }
+  
+    100% {
+    opacity: 1;
+    }
+  }
+  
