@@ -71,11 +71,11 @@ a {
 .amazon-com-inc-uma-empresa-multinacional-de-tecnologia-norte-americana-com-sede-em-seattle-washington-a-companhia-se-concentra-no-e-commerce-computa-o-em-nuvem-streaming-e-intelig-ncia-artificial-considerada-uma-das-cinco-grandes-empresas-de-tecnologia-juntamente-com-google-apple-microsoft-e-facebook {
   color: #fbfbfb;
   text-align: left;
-  font: 500 32px "Roboto", sans-serif;
+  font: 500 28px "Roboto", sans-serif;
   position: absolute;
   left: 35px;
-  top: 356px;
-  width: 597px;
+  top: 50%;
+  width: 50%;
   height: 616px;
 }
 .amazon-tudo-para-voc-de-a-a-z {
@@ -84,9 +84,9 @@ a {
   font: 500 32px "Roboto", sans-serif;
   position: absolute;
   left: 35px;
-  top: 714px;
-  width: 797px;
-  height: 441px;
+  top: 80%;
+  width: 50%;
+  height: 60%;
 }
 .amazon-com-br-rgb-rev-half-cb-1198675309-1 {
   width: 413px;

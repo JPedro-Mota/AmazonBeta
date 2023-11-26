@@ -1,17 +1,16 @@
-
+const inputElement = document.getElementById('rectangle-1');
   function search() {
-   
-    const inputElement = document.getElementById('rectangle-1');
+
     const inputValue = inputElement.value.toLowerCase(); // Converter para minúsculas para evitar problemas de capitalização
 
     
+    
     const pageMappings = {
-      'inicio': './index.html',
-      'servicos': 'servicos.html',
-      'logistica': 'logistica.html',
-      'ajuda': 'ajuda.html', 
-      'login': './Login/login.html',
-      'cadastro': './Login/cadastro.html'
+      'inicio': '../index.html',
+      'sobre': '../html/sobre.html',
+      'logistica': '../html/logistica.html', 
+      'login': '../html/login.html',
+      'cadastro': '../html/cadastro.html'
     };
 
     if (pageMappings.hasOwnProperty(inputValue)) {
@@ -21,3 +20,8 @@
       console.log('Nenhuma correspondência encontrada para:', inputValue);
     }
   }
+inputElement.addEventListener("keyup", (event) => {
+  if (event.code == 'Enter') {
+    search();
+  };
+})

@@ -6,12 +6,11 @@ function search() {
 
     
     const pageMappings = {
-      'inicio': './index.html',
-      'servicos': 'servicos.html',
-      'logistica': 'logistica.html',
-      'ajuda': 'ajuda.html', 
-      'login': './login.html',
-      'cadastro': './cadastro.html'
+      'inicio': '../html/index.html',
+      'sobre': '../html/sobre.html',
+      'logistica': '../html/logistica.html', 
+      'login': '../html/login.html',
+      'cadastro': '../html/cadastro.html'
     };
 
     if (pageMappings.hasOwnProperty(inputValue)) {
