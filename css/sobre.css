@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  
+  
+  .text-slid {
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 1%;
+  }
+  
+  .text-slid .h1-t {
+    font-size: 45px;
+  }
+  
+  .text-slid .h2-t {
+    font-size: 30px;
+  }
+  
+  .img-log {
+    width: 413px;
+    height: 80px;
+  }
+  
+  
+  .slider {
+    background: url(../img/banner_sobre.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 0%;
+    padding: 200px 0;
+    position: relative;
+  }
+  
+  .overly, .slider, .page-title {
+    position: relative;
+  }
+  
+  .overly:before, .slider:before, .page-title:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #131921;
+    opacity: 0.65;
+  }
+  
+  .title01 {
+    display: flex;
+    margin-top: -30%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+  }
+  
+  @media (max-width: 364px) {
+    .title01 {
+        flex-direction: column;
+        margin-left: 10%;
+    }
+  
+    .text-slid .h1-t {
+        font-size: 35px;
+    }
+  
+    .text-slid .h2-t {
+        font-size: 25px;
+    }
+  }

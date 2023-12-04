@@ -8,20 +8,40 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/log.css">
     <title>Logistica</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <body>
+
     <header class="header">
-        <nav class="nav">
-            <div class="secao1">
-                <a href="/" class="logo"><img src="../img/amazon-logo.png" alt=""></a>
-                <ul class="nav-list">
-                    <li><a href="../index.html">Início</a></li>
-                    <li><a href="./servicos.html">Sobre</a></li>
-                    <li><a href="#">Logística</a></li>
-                </ul>
-             </div>
-            <input id="rectangle-1" class="rectangle-1" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" placeholder="   Tudo para você, de A a Z" onkeyup="search()">  </input>
-            <a href="#" class="cadastro">Olá, faça seu login</a>
+        <nav class="navbar navbar-expand-lg" id="navbar-container">
+          <div class="container-fluid mb-lg-0 m-3 p-0 >
+            <a href="/" class="logo"><img src="../img/amazon-logo.png" alt="" class="logo-img"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse mb-lg-3 col ms-5" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item ">
+                  <a class="nav-link active text-light" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="../html/sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/html/logistica.html">Logistica</a>
+                </li>
+                
+          
+              </ul>
+              <input type="search" id="rectangle-1" class="rectangle-1" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" placeholder="   Tudo para você, de A a Z""> </input>
+                <ul class="navbar-nav me-auto ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#" >Olá, faça seu login</a>
+                  </li>
+                </ul> 
+              </form>
+            </div>
+          </div>
         </nav>
     </header>
 
@@ -38,9 +58,100 @@
             </div>
         </div>
     </section>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="service-block text-center">
+            <i class="fas fa-truck fa-3x mb-3"></i>
+            <h4>Entrega Rápida</h4>
+            <p>Conte com nossa frota eficiente para entregar seus produtos com rapidez em qualquer lugar.</p>
+          </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="service-block text-center">
+            <i class="fas fa-warehouse fa-3x mb-3"></i>
+            <h4>Armazenamento Seguro</h4>
+            <p>Nossos centros de distribuição de última geração garantem o armazenamento seguro e organizado de seus produtos.</p>
+          </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="service-block text-center">
+            <i class="fas fa-globe fa-3x mb-3"></i>
+            <h4>Logística Global</h4>
+            <p>Conectamos o mundo, proporcionando soluções logísticas eficientes para envios internacionais.</p>
+          </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="service-block text-center">
+            <i class="fas fa-shield-alt fa-3x mb-3"></i>
+            <h4>Rastreamento Seguro</h4>
+            <p>Utilize nosso sistema de rastreamento avançado para monitorar seus envios em tempo real, com total segurança.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-sm-6 mb-3">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">Entrega Rápida</h5>
+              <p class="card-text">A Amazon revoluciona a experiência de entrega com seu serviço de entrega rápida. Contando com uma frota eficiente e estrategicamente posicionada, garantimos que seus produtos cheguem até você em tempo recorde. Seja para atender às expectativas dos clientes mais exigentes ou para proporcionar conveniência nos momentos de urgência, nossa logística de entrega rápida é um diferencial que redefine a eficiência no comércio online. <br><br><br></p>
+              <a href="./cadastro.php" class="btn btn-primary">Contrate!</a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-6 mb-3">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">Armazenamento Seguro</h5>
+              <p class="card-text">Nosso compromisso com a excelência logística estende-se ao armazenamento seguro e organizado de seus produtos. Em nossos centros de distribuição de última geração, adotamos tecnologias avançadas para garantir que seus itens sejam mantidos em condições ideais. Do estoque de alta rotatividade aos produtos sazonais, oferecemos um ambiente de armazenamento confiável, assegurando a integridade e disponibilidade dos seus produtos sempre que necessário. <br><br><br></p>
+              <a href="./cadastro.php" class="btn btn-primary">Contrate!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-sm-6 mb-3">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">Logística Global</h5>
+              <p class="card-text">A Amazon transcende fronteiras, conectando o mundo por meio de uma logística global eficiente. Seja para expandir seu mercado internacional ou atender a uma base de clientes global, nossos serviços de logística abrangem desde a coleta até a entrega, superando desafios geográficos com soluções adaptadas. Com uma rede global de parceiros e expertise em logística internacional, estamos prontos para levar seus produtos a qualquer canto do mundo. <br><br><br></p>
+              <a href="./cadastro.php" class="btn btn-primary">Contrate!</a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-6 mb-3">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">Rastreamento Seguro</h5>
+              <p class="card-text">Oferecemos tranquilidade aos nossos clientes por meio de um sistema de rastreamento seguro e avançado. Desde o momento em que seu pedido é despachado até a entrega final, você pode acompanhar o status em tempo real. Utilizando tecnologias de ponta, garantimos transparência e visibilidade em cada etapa do processo logístico. Sua segurança e confiança são fundamentais, e o rastreamento seguro é uma peça essencial na entrega dessa promessa. 
+                <br><br><br></p>
+              <a href="./cadastro.php" class="btn btn-primary">Contrate!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
     
 
-    </div>
 
     <footer class="footer">
         <div class="container">
@@ -48,52 +159,42 @@
                 <div class="footer-col">
                     <h4>Sobre Nós</h4>
                     <ul>
-                        <li><a href="home.html">Nossa Missão</a></li>
-                        <li><a href="home.html">Valores Educacionais</a></li>
-                        <li><a href="home.html">Equipe Dedicada</a></li>
-                        <li><a href="home.html">Parcerias Educacionais</a></li>
+                        <li><a href="https://www.aboutamazon.com.br/quem-somos">Quem somos ?</a></li>
+                        <li><a href="https://www.amazon.com.br/gp/browse.html?node=23490129011&ref_=footer_gw_m_b_corporate">Informações corporativas</a></li>
+                        <li><a href="https://www.amazon.com.br/gp/browse.html?node=16593314011&ref_=footer_community">Comunidade</a></li>
+                        <li><a href="https://www.amazon.com.br/gp/browse.html?node=23454858011&ref_=footer_accessibility">Acessibilidade</a></li>
                     </ul>
                 </div>
-
-                
-
+  
                 <div class="footer-col">
-                    <h4>Programas Acadêmicos</h4>
-                    <ul>
-                        <li><a href="home.html">Cursos Destacados</a></li>
-                        <li><a href="home.html">Abordagem Multidisciplinar</a></li>
-                        <li><a href="home.html">Atividades Extracurriculares</a></li>
-                        <li><a href="home.html">Apoio ao Aluno</a></li>
-                        <li><a href="home.html">Eventos Educativos</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Portal do Aluno</h4>
+                    <h4>Conta</h4>
                     <ul>
                         <li><a href="home.html">Acesso Rápido</a></li>
-                        <li><a href="home.html">Suporte Personalizado</a></li>
-                        <li><a href="home.html">Recursos Educacionais</a></li>
-                        <li><a href="home.html">Comunidade Estudantil</a></li>
+                        <li><a href="home.html">Faça seu cadastro</a></li>
+                        
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Contatos</h4>
                     <div class="social-links">
-                        <a id="facebook" href="https://pt-br.facebook.com/EeepProfessoraLuizadeTeodoro/"><i
-                                class='bx bxl-facebook-circle'></i></a>
-                        <a id="instagram" href="https://www.instagram.com/eeepluizadeteodoro"><i
-                                class='bx bxl-instagram-alt'></i></a>
+                        <a id="facebook" href="https://www.facebook.com/Amazon.com.br/?locale=pt_BR"><i
+                                class='bx bxl-facebook-circle'><img src="../img/facebook.png" alt="" class="img-rs"></i></a>
+                                
+                        <a id="instagram" href="https://www.instagram.com/amazonbrasil/"><i
+                                class='bx bxl-instagram-alt'><img src="../img/instagram.png" alt="" class="img-rs"></i></a>
                         <a id="linkedin"
-                            href="https://www.linkedin.com/search/results/all/?keywords=Professora%20Luiza%20de%20Teodoro%20Vieira&origin=GLOBAL_SEARCH_HEADER&sid=JF_"><i
-                                class='bx bxl-linkedin'></i></a>
+                            href="https://br.linkedin.com/company/amazon"><i
+                                class='bx bxl-linkedin'><img src="../img/linkedin.png" alt="" class="img-rs"></i></a>
                         <a id="mapa"
-                            href="https://www.google.com.br/maps/place/Escola+Estadual+de+Educa%C3%A7%C3%A3o+Profissional+Professora+Luiza+de+Teodoro+Vieira/@-3.8897914,-38.6117764,17.8z/data=!4m6!3m5!1s0x7c75381c019c3d5:0xc53cd84b288208b6!8m2!3d-3.8894195!4d-38.6098294!16s%2Fg%2F1tjdrk1_?entry=ttu"><i
-                                class='bx bxs-map'></i></a>
+                            href="../index.html"><i
+                                class='bx bxs-map'><img src="../img/Amazon.png" alt="" class="img-rs"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>

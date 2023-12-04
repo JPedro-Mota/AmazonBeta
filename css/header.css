@@ -15,6 +15,7 @@ a {
     /* padding-inline: 16px; */
   }
 
+ 
   .nav{
     display: flex;
     margin-left: 3%;
@@ -45,28 +46,7 @@ a {
     
   }
 
-  .nav-list{
-    display: flex;
-    margin-top: auto;
-    margin-bottom: auto;
-    /* margin-left: 15%; */
-    margin-right: 35px;
-    gap: 30px;
-    list-style: none;
-    justify-content: space-between;
-  }
-
-  .nav-list a {
-    font-size: 16px;
-    color: #fff;
-    padding-block: 16px;
-  }
-
-  .nav a{
-    font-size: 16px;
-    color: #fff;
-  }
-
+  
   .rectangle-1{
     background: #ffffff;
     margin-top: auto;
@@ -75,7 +55,7 @@ a {
     border-radius: 20px;
     width: 50%;
     height: 40px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     /* left: 510px; */
     /* top: 10px; */
     /* max-width: 40%; */
@@ -123,3 +103,11 @@ a {
     }
   }
   
+@media screen and (max-width: 1080px) {
+    .rectangle-1 {
+        display: none;
+    }
+
+
+}
+

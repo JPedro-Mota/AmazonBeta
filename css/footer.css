@@ -1,14 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .footer {
-    background-color: #0078BE;
-    padding: 70px 0;
-    
-    /* Localização do rodapé ( a distancia do topo ).*/
+    padding: 50px 0;
+    background-color: #232F3E;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Adicione esta propriedade para permitir que os elementos quebrem para a próxima linha em telas menores */
+    justify-content: space-between;
 }
 
 .footer-col {
@@ -19,7 +24,7 @@
     letter-spacing: 0;
     line-height: 22.7px;
     white-space: nowrap;
-
+    margin-bottom: 30px;
 }
 
 .footer-col h4 {
@@ -112,16 +117,25 @@
     transform: scale(1.10);
 }
 
-/*responsive*/
-@media(max-width: 767px) {
+ul {
+    list-style-type: none;
+}
+
+.img-rs {
+    width: 65%;
+}
+
+/* Responsivo */
+@media (max-width: 767px) {
     .footer-col {
         width: 50%;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 }
 
-@media(max-width: 574px) {
+@media (max-width: 574px) {
     .footer-col {
         width: 100%;
+        margin-bottom: 20px;
     }
 }

@@ -1,27 +1,128 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
-body{
-  background-color: #131921;
-}
-
 
 a {
   font-family: sans-serif;
   text-decoration: none;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 62.5%;
+  background-color: #131921; 
+}
 
-.hero {
-  height: calc(100vh - 70px);
-  background: center / cover no-repeat url("./bg.jpg");
+.card-img{
+  max-height: 10%;
+  height: 300px;
+  width: 100px
+}
+.text-slid {
+  text-align: left;
+  color: white;
+  opacity: 0.9;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 1%;
+}
+
+.text-slid .h1-t {
+  font-size: 45px;
+}
+
+.text-slid .h2-t {
+  font-size: 30px;
+  width: 50%;
+}
+
+.img-log {
+  width: 413px;
+  height: 80px;
+}
+
+.slider {
+  background: url(../img/design-sem-nome-1-1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  padding: 200px 0;
+  position: relative;
+}
+
+.overlay, .slider, .page-title {
+  position: relative;
+}
+
+.overlay:before, .slider:before, .page-title:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #131921;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 50px 0;
+}
+
+.title01 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-slid .h1-t {
+  font-size: 45px;
+}
+
+.text-slid .h2-t {
+  font-size: 30px;
+  width: 50%;
 }
 
 @media (max-width: 750px) {
-  
+  .title01 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 
+  .text-slid .h1-t {
+    font-size: 35px;
+  }
+
+  .text-slid .h2-t {
+    font-size: 25px;
+  }
+
+  .img-log {
+    width: 300px;
+    height: 60px;
+  }
+
+  .wrap {
+    flex-direction: column;
+  }
+
+  .lad01 {
+    margin-right: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px) {
   .nav-list {
     position: fixed;
     top: 0;
@@ -65,65 +166,35 @@ a {
   .nav.active .nav-list a {
     opacity: 1;
   }
-
-  
-}
-.amazon-com-inc-uma-empresa-multinacional-de-tecnologia-norte-americana-com-sede-em-seattle-washington-a-companhia-se-concentra-no-e-commerce-computa-o-em-nuvem-streaming-e-intelig-ncia-artificial-considerada-uma-das-cinco-grandes-empresas-de-tecnologia-juntamente-com-google-apple-microsoft-e-facebook {
-  color: #fbfbfb;
-  text-align: left;
-  font: 500 28px "Roboto", sans-serif;
-  position: absolute;
-  left: 35px;
-  top: 50%;
-  width: 50%;
-  height: 616px;
-}
-.amazon-tudo-para-voc-de-a-a-z {
-  color: #fbfbfb;
-  text-align: left;
-  font: 500 32px "Roboto", sans-serif;
-  position: absolute;
-  left: 35px;
-  top: 80%;
-  width: 50%;
-  height: 60%;
-}
-.amazon-com-br-rgb-rev-half-cb-1198675309-1 {
-  width: 413px;
-  height: 81px;
-  position: absolute;
-  left: 35px;
-  top: 230px;
 }
 
-.image-banner{
-  width: 100%;
-}
-
-.wrap{
+.wrap {
   display: flex;
   flex-direction: row;
   margin-left: 5%;
   margin-right: 5%;
 }
 
-.lad01{
+.lad01 {
+  font: 500 20px "Roboto", sans-serif;
+  color: #000000;
   margin-top: auto;
   margin-bottom: auto;
+  margin-right: 20px;
 }
 
-.lad02{
+.lad02 {
   margin-top: auto;
   margin-bottom: auto;
 }
 
 @keyframes fadeIn {
   from {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }

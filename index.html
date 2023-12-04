@@ -13,100 +13,132 @@
 
     
     <title>Incio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
   </head>
   <body>
+    
     <header class="header">
-      <nav class="nav">
-          <div class="secao1">
-              <a href="/" class="logo"><img src="./img/amazon-logo.png" alt="" class="logo-img"></a>
-              <ul class="nav-list">
-                  <li><a href="#">Início</a></li>
-                  <li><a href="./html/servicos.html">Serviços</a></li>
-                  <li><a href="./html/logistica.html">Logística</a></li>
-              </ul>
-           </div>
-          <input type="search" id="rectangle-1" class="rectangle-1" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" placeholder="   Tudo para você, de A a Z"">  </input>
-          <a href="./html/login.html" class="cadastro">Olá, faça seu login</a>
+      <nav class="navbar navbar-expand-lg" id="navbar-container">
+        <div class="container-fluid mb-lg-0 m-3 p-0 >
+          <a href="/" class="logo"><img src="./img/amazon-logo.png" alt="" class="logo-img"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse mb-lg-3 col ms-5" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item ">
+                <a class="nav-link active text-light" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./html/sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="/html/logistica.html">Logistica</a>
+              </li>
+              
+        
+            </ul>
+              <input type="search" id="rectangle-1" class="rectangle-1" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" placeholder="   Tudo para você, de A a Z""> </input>
+              <ul class="navbar-nav me-auto ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#" >Olá, faça seu login</a>
+                </li>
+              </ul> 
+          </div>
+        </div>
       </nav>
   </header>
-      <img class="image-banner" src="./img/design-sem-nome-1-1.png" />
-      <div
-        class="amazon-com-inc-uma-empresa-multinacional-de-tecnologia-norte-americana-com-sede-em-seattle-washington-a-companhia-se-concentra-no-e-commerce-computa-o-em-nuvem-streaming-e-intelig-ncia-artificial-considerada-uma-das-cinco-grandes-empresas-de-tecnologia-juntamente-com-google-apple-microsoft-e-facebook"
-      >
-        Amazon.com, Inc. é uma empresa multinacional de tecnologia
-        norte-americana com sede em Seattle, Washington. A companhia se
-        concentra no e-commerce, computação em nuvem, streaming e inteligência
-        artificial. É considerada uma das cinco grandes empresas de tecnologia,
-        juntamente com Google, Apple, Microsoft e Facebook.
-      </div>
-      <div class="amazon-tudo-para-voc-de-a-a-z">
-        Amazon, tudo para você de A a Z.
-      </div>
-      <img
-        class="amazon-com-br-rgb-rev-half-cb-1198675309-1"
-        src="./img/amazon-com-br-rgb-rev-half-cb-1198675309-1.png"
-      />
-      </div>
 
-      <div class="wrap">
-        <div class="wrap"><p class="lad01">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laboriosam assumenda nobis recusandae quis! Velit
-           facere saepe mollitia. Doloremque nam mollitia reprehenderit laboriosam ab bl
-          anditiis ut magni esse. Qui, nemo.</p>
-          <img class="lad02" src="./img/logistica02.png" alt="">
+  <section class="slider">
+    <div class="container-1">
+        <div class="row-1">
+            <div class="col-md-12">
+                <div class="text-slid">
+                    <img src="./img/amazon-com-br-rgb-rev-half-cb-1198675309-1.png" alt="" class="img-log" >
+                    <p class="h1-t"> <b>De A a Z, só a Amazon faz para você! </b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <div class="col-sm-6 mb-3">
+      <div class="card">
+        <img src="./img/card01.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Quem somos?</h5>
+          <p class="card-text">A Amazon redefine o significado de entrega rápida e eficiente. Com opções como a entrega Prime em apenas alguns dias, agendamento flexível e rastreamento em tempo real, colocamos o controle nas mãos dos clientes. Entregamos confiança e conveniência para que você receba seus produtos quando e onde precisar. Essa é a Amazon, levando a entrega a novos patamares para sua comodidade. <br><br><br></p>
+          <a href="./html/sobre.html" class="btn btn-primary">Conheça mais!</a>
         </div>
       </div>
+    </div>
 
-    <footer class="footer">
-      <div class="container">
-          <div class="row">
-              <div class="footer-col">
-                  <h4>Sobre Nós</h4>
-                  <ul>
-                      <li><a href="https://www.aboutamazon.com.br/quem-somos">Sobre a Amazon</a></li>
-                      <li><a href="https://www.amazon.com.br/gp/browse.html?node=23490129011&ref_=footer_gw_m_b_corporate">Informações corporativas</a></li>
-                      <li><a href="https://www.amazon.com.br/gp/browse.html?node=16593314011&ref_=footer_community">Comunidade</a></li>
-                      <li><a href="https://www.amazon.com.br/gp/browse.html?node=23454858011&ref_=footer_accessibility">Acessibilidade</a></li>
-                  </ul>
-              </div>
-              <div class="footer-col">
-                  <h4>Programas Acadêmicos</h4>
-                  <ul>
-                      <li><a href="hhttps://www.aboutamazon.com.br/quem-somos">Faça sua conta</a></li>
-                      <li><a href="home.html">Cadastre-se</a></li>
-                      <li><a href="home.html">Já possuo conta</a></li>
-                      <li><a href="home.html">Apoio ao Aluno</a></li>
-                      <li><a href="home.html">Eventos Educativos</a></li>
-                  </ul>
-              </div>
-              <div class="footer-col">
-                  <h4>Portal do Aluno</h4>
-                  <ul>
-                      <li><a href="home.html">Acesso Rápido</a></li>
-                      <li><a href="home.html">Suporte Personalizado</a></li>
-                      <li><a href="home.html">Recursos Educacionais</a></li>
-                      <li><a href="home.html">Comunidade Estudantil</a></li>
-                  </ul>
-              </div>
-              <div class="footer-col">
-                  <h4>Contatos</h4>
-                  <div class="social-links">
-                      <a id="facebook" href="https://pt-br.facebook.com/EeepProfessoraLuizadeTeodoro/"><i
-                              class='bx bxl-facebook-circle'></i></a>
-                      <a id="instagram" href="https://www.instagram.com/eeepluizadeteodoro"><i
-                              class='bx bxl-instagram-alt'></i></a>
-                      <a id="linkedin"
-                          href="https://www.linkedin.com/search/results/all/?keywords=Professora%20Luiza%20de%20Teodoro%20Vieira&origin=GLOBAL_SEARCH_HEADER&sid=JF_"><i
-                              class='bx bxl-linkedin'></i></a>
-                      <a id="mapa"
-                          href="https://www.google.com.br/maps/place/Escola+Estadual+de+Educa%C3%A7%C3%A3o+Profissional+Professora+Luiza+de+Teodoro+Vieira/@-3.8897914,-38.6117764,17.8z/data=!4m6!3m5!1s0x7c75381c019c3d5:0xc53cd84b288208b6!8m2!3d-3.8894195!4d-38.6098294!16s%2Fg%2F1tjdrk1_?entry=ttu"><i
-                              class='bx bxs-map'></i></a>
-                  </div>
-              </div>
-          </div>
+    <div class="col-sm-6 mb-3">
+      <div class="card">
+        <img src="./img/card02.jpeg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nosso serviços</h5>
+          <p class="card-text">Na Amazon, a confiança é a essência de tudo o que fazemos. Construímos relações sólidas e duradouras com nossos clientes, baseadas na transparência, integridade e compromisso inabalável com a satisfação. Cada compra é respaldada pela nossa garantia de qualidade, proporcionando tranquilidade aos clientes. Seja pela segurança nas transações, pela procedência dos produtos ou pela entrega pontual, na Amazon, a confiança é mais do que uma promessa, é o alicerce que sustenta a nossa jornada junto aos nossos valiosos clientes.</p>
+          <a href="./html/logistica.html" class="btn btn-primary">Contrate!</a>
+        </div>
       </div>
-  </footer>
+    </div>
+  </div>
+</div>
+
+
+
+              <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Sobre Nós</h4>
+                            <ul>
+                                <li><a href="https://www.aboutamazon.com.br/quem-somos">Quem somos ?</a></li>
+                                <li><a href="https://www.amazon.com.br/gp/browse.html?node=23490129011&ref_=footer_gw_m_b_corporate">Informações corporativas</a></li>
+                                <li><a href="https://www.amazon.com.br/gp/browse.html?node=16593314011&ref_=footer_community">Comunidade</a></li>
+                                <li><a href="https://www.amazon.com.br/gp/browse.html?node=23454858011&ref_=footer_accessibility">Acessibilidade</a></li>
+                            </ul>
+                        </div>
+          
+                        <div class="footer-col">
+                            <h4>Conta</h4>
+                            <ul>
+                                <li><a href="home.html">Acesso Rápido</a></li>
+                                <li><a href="home.html">Faça seu cadastro</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Contatos</h4>
+                            <div class="social-links">
+                                <a id="facebook" href="https://www.facebook.com/Amazon.com.br/?locale=pt_BR"><i
+                                        class='bx bxl-facebook-circle'><img src="../img/facebook.png" alt="" class="img-rs"></i></a>
+                                        
+                                <a id="instagram" href="https://www.instagram.com/amazonbrasil/"><i
+                                        class='bx bxl-instagram-alt'><img src="../img/instagram.png" alt="" class="img-rs"></i></a>
+                                <a id="linkedin"
+                                    href="https://br.linkedin.com/company/amazon"><i
+                                        class='bx bxl-linkedin'><img src="../img/linkedin.png" alt="" class="img-rs"></i></a>
+                                <a id="mapa"
+                                    href="./index.html"><i
+                                        class='bx bxs-map'><img src="../img/Amazon.png" alt="" class="img-rs"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+  <script src="./js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
 </body>
-<script src="./js/script.js"></script>
 </html>
   </body>
 </html>
